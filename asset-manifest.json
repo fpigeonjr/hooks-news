@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/hooks-news/static/js/main.ede8edaf.chunk.js",
-    "main.js.map": "/hooks-news/static/js/main.ede8edaf.chunk.js.map",
+    "main.js": "/hooks-news/static/js/main.d5adc892.chunk.js",
+    "main.js.map": "/hooks-news/static/js/main.d5adc892.chunk.js.map",
     "runtime-main.js": "/hooks-news/static/js/runtime-main.2cb8bf30.js",
     "runtime-main.js.map": "/hooks-news/static/js/runtime-main.2cb8bf30.js.map",
     "static/js/2.42ad47f5.chunk.js": "/hooks-news/static/js/2.42ad47f5.chunk.js",
     "static/js/2.42ad47f5.chunk.js.map": "/hooks-news/static/js/2.42ad47f5.chunk.js.map",
     "index.html": "/hooks-news/index.html",
-    "precache-manifest.9bfb379088e8bc3faff7bc5a2d6b4bb6.js": "/hooks-news/precache-manifest.9bfb379088e8bc3faff7bc5a2d6b4bb6.js",
+    "precache-manifest.de473bfe24c8b3cdc5781d8aad3f601c.js": "/hooks-news/precache-manifest.de473bfe24c8b3cdc5781d8aad3f601c.js",
     "service-worker.js": "/hooks-news/service-worker.js",
     "static/js/2.42ad47f5.chunk.js.LICENSE": "/hooks-news/static/js/2.42ad47f5.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.2cb8bf30.js",
     "static/js/2.42ad47f5.chunk.js",
-    "static/js/main.ede8edaf.chunk.js"
+    "static/js/main.d5adc892.chunk.js"
   ]
 }
