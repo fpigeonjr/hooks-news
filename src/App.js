@@ -38,34 +38,55 @@ export default function App() {
   }
 
   return (
-    <>
-      <h1>{query.toLocaleUpperCase()} NEWS</h1>
-      <form onSubmit={handleSearch}>
+    <div className="container max-w-md mx-auto p-4 m-2 bg-purple-200 shadow-lg rounded">
+      <img
+        src="https://icon.now.sh/react/c0c"
+        alt="React Logo"
+        className="float-right h-12"
+      />
+      <h1 className="text-grey-darkest font-thin">
+        {query.toLocaleUpperCase()} NEWS
+      </h1>
+      <form className="mb-2" onSubmit={handleSearch}>
         <input
           type="text"
           onChange={e => setQuery(e.target.value)}
           value={query}
           ref={searchInputRef}
+          className="border p-1 rounded"
         />
-        <button type="submit" onClick={getResults}>
+        <button
+          type="submit"
+          className="bg-orange-500 rounded m-1 p-1"
+          onClick={getResults}
+        >
           Search
         </button>
-        <button type="button" onClick={clearResults}>
+        <button
+          type="button"
+          className="bg-teal-500 text-white p-1 rounded"
+          onClick={clearResults}
+        >
           Clear
         </button>
       </form>
       {loading ? (
-        <p>Loading...</p>
+        <p className="font-bold text-orange-500">Loading...</p>
       ) : (
-        <ul>
+        <ul className="list-reset leading-normal ">
           {results.map(result => (
             <li key={result.objectID}>
-              <a href={result.url}>{result.title}</a>
+              <a
+                className="text-indigo-500 hover:text-indigo-800"
+                href={result.url}
+              >
+                {result.title}
+              </a>
             </li>
           ))}
         </ul>
       )}
-      {error && <div>{error.message}</div>}
-    </>
+      {error && <div className="text-red-500 font-bold">{error.message}</div>}
+    </div>
   )
 }
