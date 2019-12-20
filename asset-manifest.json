@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/hooks-news/static/js/main.ede8edaf.chunk.js",
+    "main.js.map": "/hooks-news/static/js/main.ede8edaf.chunk.js.map",
+    "runtime-main.js": "/hooks-news/static/js/runtime-main.2cb8bf30.js",
+    "runtime-main.js.map": "/hooks-news/static/js/runtime-main.2cb8bf30.js.map",
+    "static/js/2.42ad47f5.chunk.js": "/hooks-news/static/js/2.42ad47f5.chunk.js",
+    "static/js/2.42ad47f5.chunk.js.map": "/hooks-news/static/js/2.42ad47f5.chunk.js.map",
+    "index.html": "/hooks-news/index.html",
+    "precache-manifest.9bfb379088e8bc3faff7bc5a2d6b4bb6.js": "/hooks-news/precache-manifest.9bfb379088e8bc3faff7bc5a2d6b4bb6.js",
+    "service-worker.js": "/hooks-news/service-worker.js",
+    "static/js/2.42ad47f5.chunk.js.LICENSE": "/hooks-news/static/js/2.42ad47f5.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2cb8bf30.js",
+    "static/js/2.42ad47f5.chunk.js",
+    "static/js/main.ede8edaf.chunk.js"
+  ]
+}
